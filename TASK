@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>StyleMart - Online Fashion Store</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .product-image {
+      width: 250px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .font-demo {
+      font-family: Georgia, serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SollaMatta</h1>
+    <p><mark>Ellarum vaanga , Always welcome You</mark></p>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.amazon.in" target="_blank">Amazon</a> 
+  </nav>
+
+
+  <main>
+    
+    <section>
+      <h2>Namma Product</h2>
+      <center>
+      <img src="C:\Users\Anisha\Downloads\hrk.jpg" alt="Stylish Jacket" class="product-image">
+      <p><b>rubai:</b> <del>₹3499</del> <mark>₹2499</mark></p>
+      <p><i>Limited Time Offer</i></p>
+        </center>
+    <section>
+      <h2>Categories (Lists)</h2>
+
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Men/li>
+        <li>WomenWear</li>
+        <li>Kids</li>
+        <li>Accessories</li>
+      </ul>
+
+      <h3>Ordered List - Best Sellers</h3>
+      <ol>
+        <li>baggy</li>
+        <li>joggers</li>
+        <li>vest&trunks</li>
+      </ol>
+
+      <h3>Description List - Customer Support</h3>
+      <dl>
+        <dt>Live Chat</dt>
+        <dd>9am–9pm.</dd>
+        <dt>Email</dt>
+        <dd>support@sollamattta.com</dd>
+        <dt>Phone</dt>
+        <dd>1800-STYLE-HELP</dd>
+      </dl>
+    </section>
+
+
+    <section>
+      <h2>Links</h2>
+      <p>Check out our <a href="products.html">Product Page</a> (Relative Link).</p>
+      <p>Shop more on <a href="https://www.flipkart.com" target="_blank">Flipkart</a> (Absolute Link).</p>
+    </section>
+
+    <!-- Section 5: Font Styles -->
+    <section>
+      <h2>Font Styles</h2>
+      <p style="font-family: Arial, sans-serif;">This is Arial font.</p>
+      <p style="font-family: 'Courier New
